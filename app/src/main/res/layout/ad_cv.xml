@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/vias2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Ingresar CV de la tarjeta seleccionada:" />
+
+        <EditText
+            android:id="@+id/et_cv"
+            android:maxLength="4"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/vias2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsiguiente"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_edit"
+            android:layout_weight="1"
+            android:text="Siguiente" />
+
+    </LinearLayout>
+
+</LinearLayout>

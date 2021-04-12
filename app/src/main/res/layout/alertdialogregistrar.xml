@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/gradiente_titulo">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo2"  />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1235"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit"
+            android:gravity="center"
+            android:text="Ingrese sus datos"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_cedula_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Cedula o RUC">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_nombre_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Nombre">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_apellidos_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Apellidos">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_correo_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="Correo Electronico">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_numero_tel"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="Telefono">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_usuario_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:hint="Usuario">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_contra_cre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Contraseña">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_contra_cre2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:hint="Confirmar Contraseña">
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/chk_acuerdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Estoy de acuerdo con los terminos y condiciones de la aplicación">
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/terminos_condiciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abrir Terminos y Condiciones"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            ></TextView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
